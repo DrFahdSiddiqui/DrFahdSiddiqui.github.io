@@ -272,14 +272,14 @@
                 {
                  "gid":253,
                  "height":114,
-                 "id":43,
+                 "id":45,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":607,
-                 "x":345,
-                 "y":1093
+                 "x":172,
+                 "y":924
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -633,7 +633,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":45,
+ "nextobjectid":46,
  "orientation":"orthogonal",
  "renderorder":"left-down",
  "tiledversion":"1.0.2",
@@ -645,7 +645,7 @@
         }, 
         {
          "firstgid":253,
-         "source":"Font.json"
+         "source":"ResumeText.json"
         }],
  "tilewidth":35,
  "type":"map",

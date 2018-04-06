@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-down" width="54" height="30" tilewidth="35" tileheight="35" backgroundcolor="#d0f4f7" nextobjectid="45">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-down" width="54" height="30" tilewidth="35" tileheight="35" backgroundcolor="#d0f4f7" nextobjectid="46">
  <tileset firstgid="1" source="tileset.tsx"/>
- <tileset firstgid="253" source="Font.json"/>
+ <tileset firstgid="253" source="ResumeText.json"/>
  <imagelayer name="Background" y="538" offsetx="0" offsety="538">
   <image source="../img/background.png" width="1024" height="512"/>
   <properties>
@@ -77,7 +77,7 @@
   </data>
  </layer>
  <objectgroup name="Text">
-  <object id="43" gid="253" x="345" y="1093" width="607" height="114"/>
+  <object id="45" gid="253" x="172" y="924" width="607" height="114"/>
  </objectgroup>
  <objectgroup color="#ff0000" name="Flies">
   <object id="4" name="FlyEntity" x="910" y="490" width="560" height="35">
