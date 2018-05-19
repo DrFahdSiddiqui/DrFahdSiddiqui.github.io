@@ -642,10 +642,6 @@
         {
          "firstgid":1,
          "source":"tileset.tsx"
-        }, 
-        {
-         "firstgid":253,
-         "source":"ResumeText.json"
         }],
  "tilewidth":35,
  "type":"map",
