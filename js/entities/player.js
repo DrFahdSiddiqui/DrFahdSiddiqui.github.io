@@ -196,7 +196,7 @@ game.PlayerEntity = me.Entity.extend({
         {
             this.renderable.flicker(750);
             // flash the screen
-            me.game.viewport.fadeIn("#FFFFFF", 75);
+            //me.game.viewport.fadeIn("#FFFFFF", 75);
             me.audio.play("die", false);
         }
     }

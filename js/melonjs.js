@@ -22628,7 +22628,7 @@ me.Error = me.Object.extend.bind(Error)({
                     // load the external tileset (TSX/JSON)
                     tileset = me.loader.getTMX(me.utils.file.getBasename(src));
                     if (!tileset) {
-                        throw new me.Error(src + " external TSX/JSON tileset not found");
+                        throw new me.Error(src + " HERE external TSX/JSON tileset not found");
                     }
                 }
             }
