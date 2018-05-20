@@ -9,6 +9,12 @@
    <frame tileid="154" duration="250"/>
   </animation>
  </tile>
+ <tile id="156">
+  <animation>
+   <frame tileid="156" duration="800"/>
+   <frame tileid="157" duration="400"/>
+  </animation>
+ </tile>
  <tile id="189">
   <animation>
    <frame tileid="189" duration="250"/>
