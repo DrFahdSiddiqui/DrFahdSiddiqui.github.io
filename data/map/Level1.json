@@ -131,29 +131,6 @@
                  "width":70,
                  "x":9520,
                  "y":735
-                }, 
-                {
-                 "height":100,
-                 "id":192,
-                 "name":"me.LevelEntity",
-                 "properties":
-                    {
-                     "duration":"150",
-                     "fade":"#fff",
-                     "to":"Level2"
-                    },
-                 "propertytypes":
-                    {
-                     "duration":"string",
-                     "fade":"string",
-                     "to":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":70,
-                 "x":700,
-                 "y":770
                 }],
          "opacity":1,
          "type":"objectgroup",
