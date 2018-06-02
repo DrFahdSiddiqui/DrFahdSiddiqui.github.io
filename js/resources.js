@@ -7,11 +7,10 @@ game.resources = [
     { name: "tileset",         type:"image",   src: "data/img/tileset.png" },
     { name: "background",      type:"image",   src: "data/img/background.png" },
     { name: "clouds",          type:"image",   src: "data/img/clouds.png" },
-    { name: "L1IRoFS",         type:"image",   src: "data/img/Text/L1IRoFS.png" },
-    { name: "1linetext",            type:"image",   src: "data/img/Text/1linetext.png" },
-    { name: "flags",            type:"image",   src: "data/img/flags/flags.png" },
-    { name: "buildings",            type:"image",   src: "data/img/buildings.png"},
-    { name: "Fracking",            type:"image",   src: "data/img/assets/Fracking.png"},
+    { name: "1linetext",       type:"image",   src: "data/img/Text/1linetext.png" },
+    { name: "flags",           type:"image",   src: "data/img/flags/flags.png" },
+    { name: "buildings",       type:"image",   src: "data/img/buildings.png"},
+    { name: "Fracking",        type:"image",   src: "data/img/assets/Fracking.png"},
 
 
     /* Maps.
@@ -19,8 +18,8 @@ game.resources = [
      * { name: "example01", type: "tmx", src: "data/map/example01.tmx" },
      * { name: "example01", type: "tmx", src: "data/map/example01.json" },
      */
-    { name: "Level1",            type: "tmx",    src: "data/map/Level1.tmx" },
-    { name: "map2",            type: "tmx",    src: "data/map/map2.json" },
+    { name: "Level1",            type: "tmx",    src: "data/map/Level1.json" },
+    { name: "Level2",            type: "tmx",    src: "data/map/Level2.json" },
 
 
     /* Tilesets.
