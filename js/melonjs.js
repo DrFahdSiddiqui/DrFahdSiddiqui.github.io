@@ -15646,11 +15646,14 @@ me.Error = me.Object.extend.bind(Error)({
          */
         validate : function () {
             if (this.length >= this.max_size) {
+              this.length=this.max_size;
+              /* Fahd Siddiqui Modification, works with glitches
                 // TODO: Merge textures instead of throwing an exception
                 throw new me.video.Error(
                     "Texture cache overflow: " + this.max_size +
                     " texture units available."
                 );
+                */
             }
         },
 
