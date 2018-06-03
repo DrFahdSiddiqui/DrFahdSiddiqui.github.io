@@ -50,7 +50,10 @@ game.MyObjEntity = me.Entity.extend({
         //me.game.world.removeChild(this);
 
         // Implement url redirection here
-        window.location.href = 'http://www.fahdsiddiqui.com/contact';
+        me.game.world.removeChild(this);
+        //window.parent.location.href= "http://www.google.com";
+        //window.location.href = 'http://www.fahdsiddiqui.com/contact';
+        window.top.location.href = 'http://www.fahdsiddiqui.com/contact';
         if (this.fade && this.duration) {
             if (!this.fading) {
                 this.fading = true;
