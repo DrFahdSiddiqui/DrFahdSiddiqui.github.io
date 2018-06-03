@@ -45,12 +45,11 @@ game.MyObjEntity = me.Entity.extend({
         //game.data.score += 250;
 
         //avoid further collision and delete it
-        //this.body.setCollisionMask(me.collision.types.NO_OBJECT);
+        this.body.setCollisionMask(me.collision.types.NO_OBJECT);
 
-        //me.game.world.removeChild(this);
+        me.game.world.removeChild(this);
 
         // Implement url redirection here
-        me.game.world.removeChild(this);
         //window.parent.location.href= "http://www.google.com";
         //window.location.href = 'http://www.fahdsiddiqui.com/contact';
         window.top.location.href = 'http://www.fahdsiddiqui.com/contact';
